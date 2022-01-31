@@ -1,0 +1,25 @@
+{
+  "name": "json_stream",
+  "version": "1.0.0",
+  "description": "This is basic node js application to stream very-very large json file. This can be helpful where we want to send large json file from one server to another server. Consider an example where we have an array of blob (image in base64) of size in lakhs, there instead of sending this json data using api, we can simple stream it to minimize ram utilization for server and network load at any particular instant.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhssays/JSON_Stream.git"
+  },
+  "keywords": [
+    "json_stream"
+  ],
+  "author": "Shubham Kumar Shukla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shubhssays/JSON_Stream/issues"
+  },
+  "homepage": "https://github.com/shubhssays/JSON_Stream#readme",
+  "dependencies": {
+    "stream-json": "^1.7.3"
+  }
+}
